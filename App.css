@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 20px;
+  width: 1024px;
+  height: 1024px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}

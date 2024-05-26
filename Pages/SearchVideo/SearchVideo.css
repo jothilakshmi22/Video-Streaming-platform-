@@ -1,0 +1,22 @@
+.play-full-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.play-full-container.dark {
+  background: #000;
+}
+.play-full-container.white {
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  .play-full-container {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 10%;
+  }
+}

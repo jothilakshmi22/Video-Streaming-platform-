@@ -1,0 +1,14 @@
+.image-loader {
+  width: 98%;
+  border-radius: 5px;
+  height: 150px;
+  background: rgba(128, 128, 128, 0.476);
+}
+
+.title-loader {
+  width: 100%;
+  border-radius: 5px;
+  height: 20px;
+  background: rgba(128, 128, 128, 0.476);
+  margin-top: 5px;
+}
