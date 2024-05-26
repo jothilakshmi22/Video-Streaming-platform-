@@ -22,7 +22,6 @@ function Feed({ category, theme, setSearchData }) {
     setLoader(false);
     setSearchData("");
   };
-  console.log(data);
   useEffect(() => {
     fetchData();
   }, [category]);

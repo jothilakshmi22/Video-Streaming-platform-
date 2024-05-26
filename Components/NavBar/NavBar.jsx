@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import menu_icon from "../../assets/menu.png";
-// import logo from "../../assets/logo.png";
 import search_icon from "../../assets/search.png";
-import yout_logo from "../../assets/3.png";
 import darktheme from "../../assets/darktheme.png";
+import yout_logo from "../../assets/3.png";
+// import yout_logo from "../../assets/2.png";
 
 import { Link, useNavigate } from "react-router-dom";
 import { API_KEY } from "../../data";
@@ -41,7 +41,6 @@ function NavBar({ setSidebar, themeChange, theme, setSearchData, searchData }) {
           alt=""
         />
         <Link to="/">
-          {/* <img className="logo" src={logo} alt="" /> */}
           <img className="logo" src={yout_logo} alt="" />
         </Link>
       </div>
